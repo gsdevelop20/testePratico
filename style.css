@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #009A2E;
+    align-items: center;
+    border-bottom: 5px solid #D9D800;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contanier-menu{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.contanier-menu li {
+    padding: 10px;
+    font-size: 16;
+    
+}
+
+.contanier-menu ul, a{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.contanier-input{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    margin-right: 49px;
+    
+}
+
+#search-bar{
+    width: 309px;
+    height: 36px;
+    border-radius: 30px 0px 0px 30px;
+    border: 0;
+    outline: none;
+    padding: 15px;
+    
+}
+
+#btn-search{
+    border: none;
+    background-color: #fff;
+    width: 30px;
+    height: 36px;
+    border-radius: 0px 30px 30px 0px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+#in{
+    display: flex;
+}
+
+#btn-login{
+    width: 126.1px;
+    height: 39.31px;
+    background-color: #1474A3;
+    color: #fff;
+    border: 0;
+    border-radius: 35px;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    margin-right: 40px;
+    font-weight: 600;
+
+}
+
+#btn-create-account{
+    width: 126.1px;
+    height: 39.31px;
+    background-color: #D5D800;
+    color: #000000;
+    border: 0;
+    border-radius: 35px;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+@media (max-width: 1483px ){
+    .contanier-menu li{
+        font-size: 10px;
+    }
+    
+
+}
