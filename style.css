@@ -1,114 +1,136 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-header{
-    display: flex;
-    width: 100%;
-    height: 80px;
+*{
+    font-family: 'Raleway' sans-serif;
+}
+#nav-bar{
     background-color: #009A2E;
-    align-items: center;
+    height: 80px;
     border-bottom: 5px solid #D9D800;
 }
-
-nav{
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+#logo{
+    margin-left: 40px;
+    margin-right: 60px;
 }
 
-.contanier-menu{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-left: 20px;
-}
-
-.contanier-menu li {
-    padding: 10px;
-    font-size: 16;
-    
-}
-
-.contanier-menu ul, a{
-    display: flex;
-    list-style: none;
-    text-decoration: none;
-    text-transform: uppercase;
+#contanier-list a{
     color: #fff;
-    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-family: 'Raleway' sans-serif;
     font-weight: 600;
-}
-
-.contanier-input{
-    width: 50%;
-    display: flex;
-    justify-content: end;
-    margin-right: 49px;
-    
+    text-transform: uppercase;
 }
 
 #search-bar{
-    width: 309px;
+    width: 260px;
     height: 36px;
     border-radius: 30px 0px 0px 30px;
-    border: 0;
-    outline: none;
-    padding: 15px;
-    
+    border: 0;  
 }
 
 #btn-search{
-    border: none;
-    background-color: #fff;
-    width: 30px;
-    height: 36px;
-    border-radius: 0px 30px 30px 0px;
-    cursor: pointer;
     display: flex;
     align-items: center;
-    margin-right: 40px;
-}
-#in{
-    display: flex;
+    justify-content: center;
+    background-color: #FFF;
+    width: 40px;
+    height: 36px;
+    border-radius: 0px 30px 30px 0px;
+    border: 0;
+    padding: 0;
+    margin-right: 50px;
 }
 
 #btn-login{
-    width: 126.1px;
-    height: 39.31px;
+    width: 126px;
+    height: 39px;
     background-color: #1474A3;
+    border-radius: 35px;
     color: #fff;
-    border: 0;
-    border-radius: 35px;
-    font-family: 'Raleway', sans-serif;
-    cursor: pointer;
-    margin-right: 40px;
-    font-weight: 600;
-
+    font-family: 'Raleway' sans-serif;
+    margin-right: 50px;
 }
-
-#btn-create-account{
-    width: 126.1px;
-    height: 39.31px;
+#btn-register{
+    width: 126px;
+    height: 39px;
     background-color: #D5D800;
-    color: #000000;
-    border: 0;
     border-radius: 35px;
-    font-family: 'Raleway', sans-serif;
-    cursor: pointer;
+    color: #000000;
+    font-family: 'Raleway' sans-serif;
+    font-weight: 600;
+    margin-right: 40px;
+}
+
+/* main*/
+
+.container-main nav{
+    width: 100%;
+
+}
+#nav-main{
+    margin-left: 267px;
+    font-size: 12px;
+    font-family: 'Raleway' sans-serif;
     font-weight: 600;
 
 }
+#nav-main a{
+    color: #000000;
+    
+}
 
-@media (max-width: 1483px ){
-    .contanier-menu li{
-        font-size: 10px;
-    }
+.contanier-info-curso{
+    width: 100%;
+    height: 324px;
+    background-color: #FCFCE5;
+    display: flex;
+    align-items: center;
+    
     
 
+}
+
+.curso-info{
+    width: 45%;
+    height:324 ;
+    margin-left: 267px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#desc-curse{
+    margin-left: 46px;
+    margin-top: 35px;
+    
+}
+
+#desc-curse p{
+    
+    font-size: 18px;
+}
+
+#midia-icon{
+    margin-top: 1px;
+}
+
+#star{
+    margin-top: 10px;
+}
+
+#card-teacher{
+    width: 338.19px;
+    height: 451.5px;
+    background-color: #fff;
+    border-radius: 200px;
+    position: relative;
+    left:65%;
+    bottom: 250px;
+    
+}
+
+#videoCurse{
+    position: relative;
+    bottom: 400px;
+    left: 267px;
 }
