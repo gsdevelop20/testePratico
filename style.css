@@ -122,10 +122,30 @@
     width: 338.19px;
     height: 451.5px;
     background-color: #fff;
-    border-radius: 200px;
+    border-radius: 30px;
     position: relative;
     left:65%;
     bottom: 250px;
+    
+    
+}
+
+#desc-teacher{
+    font-size: 13px;
+    text-align: justify;
+    margin-left:7px;
+  
+}
+
+#title-desc-teacher{
+    font-size: 20px;
+    margin-left: 7px;
+}
+
+
+.info-teacher{
+    display: flex;
+    border-bottom: 2px solid #0000004D;
     
 }
 
@@ -134,3 +154,43 @@
     bottom: 400px;
     left: 267px;
 }
+
+.contanier-desc-course{
+    margin-left: 267px;
+    width: 40%;
+    position: relative;
+    bottom:345px;
+    margin-bottom: 10px;
+    
+}
+
+.contanier-desc-course h3{
+    font-size: 26px;
+    color: #297FAD;
+    margin-top: 40px;
+    
+}
+
+.contanier-desc-course p{
+    font-size: 18px;
+    color: #000000;
+    text-align: justify;
+    margin-top: 25px;
+    
+}
+#cont-list{
+    width: 100%;
+    height: 51px;
+    background-color: #EBEBEB;
+    border-radius: 20px;
+    
+}
+.more-info-teacher{
+    width: 100%;
+    height: 599px;
+    background-color: #D5D800;
+    position: relative;
+    bottom: 300px;
+}
+
+
