@@ -383,6 +383,9 @@
     .curso-info{
         width: 70%;
     }
+    #logo{
+        margin-left:10px ;
+    }
 
 
 }
