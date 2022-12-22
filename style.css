@@ -3,9 +3,13 @@
     font-family: 'Raleway' sans-serif;
 }
 #nav-bar{
-    background-color: #009A2E;
+    
     height: 80px;
     border-bottom: 5px solid #D9D800;
+}
+
+.bg{
+    background-color: #009A2E;
 }
 #logo{
     margin-left: 40px;
@@ -19,9 +23,7 @@
     font-weight: 600;
     text-transform: uppercase;
 }
-#contanier-list{
-    background-color: #009A2E;
-}
+
 
 #search-bar{
     width: 30%;
@@ -61,6 +63,32 @@
     font-family: 'Raleway' sans-serif;
     font-weight: 600;
     margin-right: 40px;
+}
+
+#hidder-menu{
+    position: absolute;
+    top: 60px;
+    height: 600px;
+    right: 0.5px;
+    display: flex;
+    align-items: center;
+    background-color: #009A2E;
+    width: 100%;
+    z-index: 100;
+    display: non;
+    justify-content: center;
+    display: none;
+    
+}
+
+#nav-hidden a{
+    color: #FFF;
+    font-size: 30px;
+    
+}
+
+.b{
+    display: flex;
 }
 
 /* main*/
@@ -337,6 +365,9 @@
         align-items: center;
         
     }
+    .curso-info{
+        width: 70%;
+    }
     
     
    
@@ -385,7 +416,7 @@
     }
     #logo{
         margin-left:10px ;
-        
+
     }
 
 
