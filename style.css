@@ -371,6 +371,18 @@
     .contanier-info-curso{
         height: 800px;
     }
+    #img-curso{
+        width: 400px;
+        height: 250px;
+        
+    }
+
+    #desc-course{
+        margin-left: 0;
+    }
+    .curso-info{
+        width: 70%;
+    }
 
 
 }
