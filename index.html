@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
     <!--jquery-->
     <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
     <!--Bootstrap-->
@@ -70,7 +70,7 @@
         <div class="contanier-info-curso">
             <div class="curso-info">
                 <img src="./imagem/cursoImagem.png" width="228px" height="147px" alt="imagem curse">
-                <div id="desc-curse">
+                <div id="desc-course">
                 <p>
                     <h1 style="font-size: 26px;" >Estratégias para Debate</h1>
                     Aprenda como ganhar seu debate! Comunique com eficácia sua plataforma para seu público por meio de estratégia e preparação. <br> 
@@ -98,38 +98,39 @@
                 </div>
             </div>
             <div class="card-course-info">
-                <ul class="navbar-nav  d-flex " id="card-course-list">
+                <ul class="navbar-nav mr-5 mt-2  d-flex " id="card-course-list">
                     <li class="nav-item p-1">
-                      catecoria: <span>Campanha</span>
+                      <span> <img src="./imagem/bar-chart.svg" width="20px" alt=""> catecoria: Campanha</span>
                     </li>
                     <li class="nav-item p-1" >
-                      Idioma: <span>Português</span>
+                      <span><img src="./imagem/chat-left-text.svg" width="20px" alt=""> Idioma: Português</span>
                     </li>
                     
                     <li class="nav-item p-1">
-                      Aulas: <span>6</span>
+                       <span> <img src="./imagem/calendar4-week.svg" width="20px" alt=""> Aulas: 6</span>
                     </li>
 
                     <li class="nav-item p-1">
-                        Carga Horária: <Span>1 Hora(s)</Span>
+                       <Span> <img src="./imagem/clock.svg" width="20px" alt=""> Carga Horária: 1 Hora(s)</Span>
                     </li>
 
                       <li class="nav-item p-1">
-                        Certificado: <span>Sim</span>
+                         <span> <img src="./imagem/newspaper.svg" width="20px" alt=""> Certificado: Sim</span>
                       </li>
 
                       <li class="nav-item p-1">
-                        Modalidade: <span>Video</span>
+                         <span> <img src="./imagem/camera-video.svg" width="20px" alt=""> Modalidade: Video</span>
                       </li>
 
                       <li class="nav-item p-1">
-                        Material de Apoio: <spam>Sim</spam> 
+                         <spam> <img src="./imagem/clipboard2-minus (1).svg" width="20px" alt=""> Material de Apoio: Sim</spam> 
                       </li>
     
                  </ul>  
             </div>
+            <button id="btn-matri">Matricular</button>
         </div>
-        <img id="videoCurse" src="./imagem/cursoVideo.png" width="40%" height="20%" alt="video">
+        <img id="videoCurse" src="./imagem/cursoVideo.png" width="45%" height="20%" alt="video">
 
         <div class="contanier-desc-course">
 
@@ -252,18 +253,28 @@
         </div>
 
         <div id="contanier-cards">
-           
+            <div id="more-couse" class="d-flex justify-content-between ml-1 mr-6">
+                <span>Cursos relacionados</span>
+                <button class="" >TODOS OS CURSOS <img src="./imagem/icons8-maior-que-30.png" width="20px" alt=""></button>
+            </div>
             <div id="cards" class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                  <div class="card shadow-lg mb-5 bg-body rounded-7 d-flex flex-column justify-content-center" >
+                  <div class="card p-0 shadow-lg mb-5 bg-body rounded-7 d-flex flex-column justify-content-center" >
                     <img src="./imagem/cardImg.png" class="card-img-top"
                       alt="Hollywood Sign on The Hill" />
                     <div class="card-body">
                       <h5 class="card-title">Estratégias para Debate</h5>
-                      <p class="card-text">
+                      <p class="card-text  mb-0 ">
                         Aprenda como ganhar seu debate! Comunique com eficácia sua plataforma 
                         para seu público por meio de estratégia e preparação.
                       </p>
+                      <div class="d-flex mb-0">
+                        <img class="mr-1" src="./imagem/star-icon.svg" width="20px" alt="">
+                        <img class="mr-1" src="./imagem/star-icon.svg" width="20px" alt="">
+                        <img class="mr-1" src="./imagem/star-icon.svg" width="20px" alt="">
+                        <img class="mr-1" src="./imagem/star-icon.svg" width="20px" alt="">
+                        <img  src="./imagem/star-icon.svg" width="20px" alt="">
+                    </div>
                     </div>
                   </div>
                 </div>
@@ -273,8 +284,15 @@
                       alt="Palm Springs Road" />
                     <div class="card-body">
                       <h5 class="card-title">Estratégias para Debate</h5>
-                      <p class="card-text">Aprenda como ganhar seu debate! Comunique com eficácia sua plataforma 
+                      <p class="card-text  mb-0 ">Aprenda como ganhar seu debate! Comunique com eficácia sua plataforma 
                         para seu público por meio de estratégia e preparação.</p>
+                        <div class="d-flex mb-0">
+                            <img class="mr-1" src="./imagem/star-icon.svg" width="20px" alt="">
+                            <img class="mr-1" src="./imagem/star-icon.svg" width="20px" alt="">
+                            <img class="mr-1" src="./imagem/star-icon.svg" width="20px" alt="">
+                            <img class="mr-1" src="./imagem/star-icon.svg" width="20px" alt="">
+                            <img  src="./imagem/star-icon.svg" width="20px" alt="">
+                        </div>
                     </div>
                   </div>
                 </div>
@@ -284,26 +302,39 @@
                       alt="Los Angeles Skyscrapers" />
                     <div class="card-body">
                       <h5 class="card-title">Estratégias para Debate</h5>
-                      <p class="card-text">Aprenda como ganhar seu debate! Comunique com eficácia sua plataforma 
+                      <p class="card-text  mb-0 ">Aprenda como ganhar seu debate! Comunique com eficácia sua plataforma 
                         para seu público por meio de estratégia e preparação..</p>
+                        <div class="d-flex mb-0">
+                            <img class="mr-1" src="./imagem/star-icon.svg" width="20px" alt="">
+                            <img class="mr-1" src="./imagem/star-icon.svg" width="20px" alt="">
+                            <img class="mr-1" src="./imagem/star-icon.svg" width="20px" alt="">
+                            <img class="mr-1" src="./imagem/star-icon.svg" width="20px" alt="">
+                            <img  src="./imagem/star-icon.svg" width="20px" alt="">
+                        </div>
                     </div>
                   </div>
                 </div>
-                <div class="col rounded" >
+                <div class="col rounded mr-1" >
                   <div class="card shadow-lg mb-5 bg-body rounded-7 d-flex flex-column justify-content-center ">
                     <img src="./imagem/cardImg.png" class="card-img-top "
                       alt="Skyscrapers" />
                     <div class="card-body ">
                       <h5 class="card-title">Estratégias para Debate</h5>
-                      <p class="card-tex">
+                      <p class="card-tex mb-0 ">
                         Aprenda como ganhar seu debate! Comunique com eficácia sua plataforma 
                         para seu público por meio de estratégia e preparação.
-                       
+                        
                       </p>
-                      
+                      <div class="d-flex mb-0">
+                        <img class="mr-1" src="./imagem/star-icon.svg" width="20px" alt="">
+                        <img class="mr-1" src="./imagem/star-icon.svg" width="20px" alt="">
+                        <img class="mr-1" src="./imagem/star-icon.svg" width="20px" alt="">
+                        <img class="mr-1" src="./imagem/star-icon.svg" width="20px" alt="">
+                        <img  src="./imagem/star-icon.svg" width="20px" alt="">
+                    </div>
                       
                     </div>
-                    
+                   
                   </div>
                   
                 </div>
@@ -333,6 +364,7 @@
 
        <div id="midia-Icon" class="d-flex mt-5 " >
         <img class="mr-3" src="./imagem/facebook.svg" width="31px" alt="">
+        <img class="mr-3" src="./imagem/icons8-linkedin.svg" width="36px" alt="">
         <img class="mr-3" src="./imagem/instagram.svg" width="31px" alt="">
         <img class="mr-3" src="./imagem/whatsapp.svg" width="31px" alt="">
         
