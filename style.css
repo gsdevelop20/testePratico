@@ -185,12 +185,69 @@
     border-radius: 20px;
     
 }
-.more-info-teacher{
+#more-info-teacher{
     width: 100%;
     height: 599px;
     background-color: #D5D800;
     position: relative;
     bottom: 300px;
+}
+
+#more-info-teacher h3 {
+    margin-left: 267px;
+}
+
+#more-info-teacher p {
+    width:70% ;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 267px;
+}
+
+#contanier-cards {
+    width: 68%;
+    position: relative;
+    bottom: 200px;
+    margin-left: 267px;
+}
+.card{
+    width: 220px;
+    height: 450px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.7s
+    
+}
+.card img{
+    border-radius: 30px 30px 30% 0;
+    height: 150px;
+    clip-path: polygon(0% 0%, 100% 0, 100% 89%, 0% 100%);
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+#contanier-footer{
+    background-image: url("./imagem/backgroundfooter.jpeg");
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#nav-footer a{
+    color: #FFF;
+}
+.btn-faça-parte{
+    width: 239px;
+    height: 40px;
+    border: 0;
+    border-radius: 30px;
+    background-color: #D5D800;
+    color: #000000;
+    font-weight: 600;
 }
 
 
