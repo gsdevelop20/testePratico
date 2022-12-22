@@ -356,7 +356,7 @@
     .curso-info{
         flex-direction: column;
         justify-content: center;
-        margin-top: 200px;
+        margin-top: 50px;
         
     }
     
@@ -365,7 +365,11 @@
     }
     #card-teacher{
         position:unset;
-        margin-top: 250px;
+        margin-top: 130px;
+    }
+
+    .contanier-info-curso{
+        height: 800px;
     }
 
 
