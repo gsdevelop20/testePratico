@@ -349,6 +349,8 @@
     font-weight: 600;
 }
 
+/* Responsividade*/
+
 @media (max-width: 1400px) {
     main{
         display: flex;
@@ -388,9 +390,6 @@
         width: 70%;
     }
     
-    
-   
-
     
 }
 
