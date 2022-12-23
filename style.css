@@ -267,6 +267,7 @@
 #more-couse {
     position: relative;
     bottom: 100px;
+    width: 96%;
 }
 #more-couse button{
     background-color: #FFF;
@@ -291,6 +292,7 @@
     bottom: 100px;
     margin-left: 13.9%;
     margin-right: 13.9%;
+    
 }
 .card{
     width: 270px;
@@ -308,6 +310,10 @@
 
 .card:hover{
     transform: scale(1.1);
+}
+
+.col{
+    margin-top: 50px;
 }
 
 .btn-card{
