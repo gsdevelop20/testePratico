@@ -78,9 +78,17 @@
     display: non;
     justify-content: center;
     display: none;
+    animation: mymove 0.3s;
     
 }
 
+#hidder-menu li{
+    border-bottom: 1px solid #FFF;
+}
+@keyframes mymove {
+    from{ height: 0;}
+    to{height:600px ;}
+  }
 #nav-hidden a{
     color: #FFF;
     font-size: 30px;
